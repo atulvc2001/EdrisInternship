@@ -2,7 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Header from "./header";
 import Footer from "./footer";
+import Test from "./test";
 import "./index.scss";
+import Axios from "axios";
+
 
 const App = () => (
   <div className="text-3xl mx-auto max-w-6xl">
@@ -10,6 +13,7 @@ const App = () => (
     <div className="my-10">
       Home page Content
     </div>
+    <Test />
     <Footer />
   </div>
 );
