@@ -1,8 +1,11 @@
 const express = require('express');
 const { createProxyMiddleware } = require('http-proxy-middleware');
 const axios = require('axios');
+const cors = require('cors'); // import cors
 
 const app = express();
+
+app.use(cors()); // use cors middleware
 
 app.use('/api', createProxyMiddleware({ 
   target: 'https://api.ng-erp.in/unicorn/dev',
