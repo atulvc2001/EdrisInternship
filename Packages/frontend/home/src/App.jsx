@@ -4,16 +4,18 @@ import Header from "./header";
 import Footer from "./footer";
 import Api from "./api";
 import "./index.scss";
+import './app.css';
+import 'bootstrap/dist/css/bootstrap.css';
 import Axios from "axios";
 
 
 const App = () => (
-  <div className="container">
+  <div className>
     <Header />
     <div className="body">
-      Home page Content
+      <h3 className="body-title">Home page Content</h3>
+      <Api />
     </div>
-    <Api />
     <Footer />
   </div>
 );
