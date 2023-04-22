@@ -1,11 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.scss";
 import Header from "home/header";
 import Footer from "home/footer";
+import './app.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
 const App = () => (
-  <div className="text-3xl mx-auto max-w-6xl">
+  <div className="body">
     <Header />
     This is dashboard
     
