@@ -1,20 +1,18 @@
-import React from "react"
-import './header.css'
-export default function Header() {
-    return (
-        <div class="navbar">
-  <a href="#home">Home</a>
-  <a href="#news">News</a>
-  <div class="dropdown">
-    <button class="dropbtn">Dropdown 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
-    </div>
-  </div> 
-</div>
-    )
+import React from "react";
+import "./menu.css";
+export default function Menu() {
+  return (
+    <nav>
+      <div class="dropdown">
+        <button><a href="#" class="home">Home</a></button>
+        <div class="projects">
+          <button>Dashboard</button>
+          <ul class="shadow">
+            <li><a href="#">Location Tracking</a></li>
+            <li><a href="#">Temperature & Humidity</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  );
 }
