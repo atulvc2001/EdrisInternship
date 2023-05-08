@@ -7,9 +7,10 @@ import "./index.scss";
 import './app.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Menu from "./menu";
-import Map from "./map";
 import Axios from "axios";
 import Mapmenu from "./mapmenu";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import MapComponent from './MapComponent';
 
 
 const App = () => (
@@ -21,6 +22,7 @@ const App = () => (
     <div class="container-mapmenu">
     <Mapmenu />
     </div>
+    <MapComponent />
     <div className="body">
       <h3 className="body-title">Home page Content</h3>
       <Api />

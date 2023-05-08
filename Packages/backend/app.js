@@ -8,7 +8,7 @@ const app = express();
 app.use(cors()); // use cors middleware
 
 app.use('/api', createProxyMiddleware({ 
-  target: 'https://api.ng-erp.in/unicorn/dev',
+  target: 'https://edris-iot-poc-api.azurewebsites.net/api/filter_messages/poc-device-1?code=XakFuEk5oaPVBL799BRb0bBUcqCxkj7S-74k49xUpwdcAzFu-6GXvw==',
   changeOrigin: true,
   pathRewrite: {
     '^/api': '/enquiries/UC-211217-0005'

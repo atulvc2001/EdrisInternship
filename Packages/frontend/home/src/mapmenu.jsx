@@ -28,7 +28,9 @@ function VerticalTabs() {
           onClick={(event) => openCity(event, "London")}
           id="defaultOpen"
         >
-          London
+        <p>Device Name: Name</p>
+        <p>status: status</p>
+        <p>User: User Name</p>
         </button>
         <button
           className="tablinks"

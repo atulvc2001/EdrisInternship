@@ -7,33 +7,42 @@ export default function Footer() {
             <footer>
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-sm-4 col-md-3 item">
-                        <h3>Services</h3>
+                    <div class="col-sm-4 col-md-2 item">
+                        <h3>Corporate</h3>
                         <ul>
-                            <li><a href="#">Web design</a></li>
-                            <li><a href="#">Development</a></li>
-                            <li><a href="#">Hosting</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Careers</a></li>
                         </ul>
                     </div>
-                    <div class="col-sm-4 col-md-3 item">
-                        <h3>About</h3>
+                    <div class="col-sm-4 col-md-2 item">
+                        <h3>Address</h3>
                         <ul>
-                            <li><a href="#">Company</a></li>
-                            <li><a href="#">Team</a></li>
-                            <li><a href="#">Legacy</a></li>
+                            <li><a href="#">Corporate</a></li>
+                            <li><a href="#">Branches</a></li>
                         </ul>
                     </div>
-                    <div class="col-sm-4 col-md-3 item">
-                        <h3>Careers</h3>
+                    <div class="col-sm-4 col-md-2 item">
+                        <h3>Business Regions</h3>
                         <ul>
-                            <li><a href="#">Job openings</a></li>
-                            <li><a href="#">Employee success</a></li>
-                            <li><a href="#">Benefits</a></li>
+                            <li><a href="#">Region 1</a></li>
+                            <li><a href="#">Region 2</a></li>
                         </ul>
                     </div>
-                    <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
-                        <p class="copyright">Company Name © 2018</p>
+                    <div class="col-sm-4 col-md-2 item">
+                        <h3>Business Regions</h3>
+                        <ul>
+                            <li><a href="#">Region 1</a></li>
+                            <li><a href="#">Region 2</a></li>
+                        </ul>
                     </div>
+                    <div class="col-sm-4 col-md-2 item">
+                        <h3>Business Regions</h3>
+                        <ul>
+                            <li><a href="#">Region 1</a></li>
+                            <li><a href="#">Region 2</a></li>
+                        </ul>
+                    </div>
+                    
                 </div>
             </div>
         </footer>

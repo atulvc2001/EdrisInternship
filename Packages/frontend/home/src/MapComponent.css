@@ -1,0 +1,14 @@
+.map-container {
+  height: 500px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+.marker-icon {
+  color: red;
+}
+
+.leaflet-popup-content {
+  font-size: 16px;
+}
